@@ -1,70 +1,94 @@
-// class Event {
-//   final String imagePath, title, description, location, duration, punchLine1, punchLine2;
-//   final List categoryIds, galleryImages;
+class Event {
+  final String imagePath,
+      title,
+      description,
+      location,
+      duration,
+      punchLine1,
+      punchLine2;
+  final List categoryIds, galleryImages;
 
-// Event(
-//   this.imagePath,
-//   this.title,
-//   this.description,
-//   this.location,
-//   this.duration,
-//   this.punchLine1,
-//   this.punchLine2,
-//   this.categoryIds,
-//   this.galleryImages,) {
-//   // TODO: implement Event
-//   throw UnimplementedError();
-//   }
-// }
+  Event(
+      {required this.imagePath,
+      required this.title,
+      required this.description,
+      required this.location,
+      required this.duration,
+      required this.punchLine1,
+      required this.punchLine2,
+      required this.categoryIds,
+      required this.galleryImages});
+}
 
+final fiveKmRunEvent = Event(
+    imagePath: "assets/event_images/5_km_downtown_run.jpeg",
+    title: "5 Kilometer Downtown Run",
+    description: "",
+    location: "Pleasant Park",
+    duration: "3h",
+    punchLine1: "Marathon!",
+    punchLine2: "The latest fad in foodology, get the inside scoup.",
+    galleryImages: [],
+    categoryIds: [0, 1]);
 
-// final fiveKMRunEvent = Event(
-//   imagePath: "assets/event_images/5_km_downtown_run.jpeg",
-//   title:"5 Km Downtown Run",
-//   description: "",
-//   location:"Pleasant Park",
-//   duration: "3h",
-//   punchLine1: "Marathon"
-//   punchLine2: "",
-//   categoryIds: [0, 1]);
+final cookingEvent = Event(
+    imagePath: "assets/event_images/granite_cooking_class.jpg",
+    title: "Granite Cooking Class",
+    description:
+        "Guest list fill up fast so be sure to apply before handto secure a spot.",
+    location: "Food Court Avenue",
+    duration: "4h",
+    punchLine1: "Granite Cooking",
+    punchLine2: "The latest fad in foodology, get the inside scoup.",
+    categoryIds: [
+      0,
+      2
+    ],
+    galleryImages: [
+      "assets/event_images/cooking_1.jpg",
+      "assets/event_images/cooking_2.jpg",
+      "assets/event_images/cooking_3.jpg"
+    ]);
 
-// final cookingEvent = Event(
-//   imagePath: "assets/event_images/granite_cooking_class.jpeg",
-//   title:"Granite Cooking Class",
-//   description: "Guest list fill up fast so be sure to apply before hand to secure a spot.",
-//   location:"Food Court Avenue",
-//   duration: "4h",
-//   punchLine1: "Granite Cooking",
-//   punchLine2: "The latest fad in foodology, get inside the scoup.",
-//   categoryIds: [0, 2],
-//   galleryImages: ["assets/event_images/cooking1.jpg", "assets/event_images/cooking2.jpg", "assets/event_images/cooking3.jpg"]);
+final musicConcert = Event(
+    imagePath: "assets/event_images/music_concert.jpg",
+    title: "Arijit Music Concert",
+    description: "Listen to Arijit's latest compositions.",
+    location: "D.Y. Patil Stadium, Mumbai",
+    duration: "5h",
+    punchLine1: "Music Lovers!",
+    punchLine2: "The latest fad in foodology, get the inside scoup.",
+    galleryImages: [
+      "assets/event_images/cooking_1.jpg",
+      "assets/event_images/cooking_2.jpg",
+      "assets/event_images/cooking_3.jpg"
+    ],
+    categoryIds: [
+      0,
+      1
+    ]);
 
-// final musicConcert = Event(
-//   imagePath: "assets/event_images/music_concert.jpg",
-//   title:"THE DREAM SHOW Concert",
-//   description: "Listen to NCT Dream's latest album.",
-//   location:"Sky Dome, Seoul",
-//   duration: "4h",
-//   punchLine1: "NCTzens~~~",
-//   punchLine2: "The latest fad in foodology, get inside the scoup.",
-//   categoryIds: [0, 1]);
+final golfCompetition = Event(
+    imagePath: "assets/event_images/golf_competition.jpg",
+    title: "Season 2 Golf Estate",
+    description: "",
+    location: "NSIC Ground, Okhla",
+    duration: "1d",
+    punchLine1: "Golf!",
+    punchLine2: "The latest fad in foodology, get the inside scoup.",
+    galleryImages: [
+      "assets/event_images/cooking_1.jpg",
+      "assets/event_images/cooking_2.jpg",
+      "assets/event_images/cooking_3.jpg"
+    ],
+    categoryIds: [
+      0,
+      3
+    ]);
 
-// final golfCompetition = Event(
-//   imagePath: "assets/event_images/golf_competition.jpeg",
-//   title:"Season 2 Golf Estate",
-//   description: "",
-//   location:"NSIC Ground, Okhla",
-//   duration: "1d",
-//   punchLine1: "Golf!!!",
-//   punchLine2: "The latest fad in foodology, get inside the scoup.",
-//   categoryIds: [0, 3]);
-
-// final fiveKMRunEvent = Event(
-//   imagePath: "assets/event_images/5_km_downtown_run.jpeg",
-//   title:"5 Km Downtown Run",
-//   description: "",
-//   location:"Pleasant Park",
-//   duration: "3h",
-//   punchLine1: "Marathon",
-//   punchLine2: "The latest fad in foodology, get inside the scoup.",
-//   categoryIds: [0, 1]);
+final events = [
+  fiveKmRunEvent,
+  cookingEvent,
+  musicConcert,
+  golfCompetition,
+];

@@ -1,5 +1,4 @@
-// ignore: unnecessary_import
-import 'package:flutter/cupertino.dart';
+//import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Category {
@@ -21,21 +20,25 @@ final musicCategory = Category(
   name: "Music",
   icon: Icons.music_note,
 );
+
 final meetUpCategory = Category(
   categoryId: 2,
   name: "Meetup",
   icon: Icons.location_on,
 );
+
 final golfCategory = Category(
   categoryId: 3,
   name: "Golf",
   icon: Icons.golf_course,
 );
+
 final birthdayCategory = Category(
   categoryId: 4,
   name: "Birthday",
   icon: Icons.cake,
 );
+
 final categories = [
   allCategory,
   musicCategory,
