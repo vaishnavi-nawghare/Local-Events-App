@@ -27,7 +27,7 @@ final fiveKmRunEvent = Event(
     location: "Pleasant Park",
     duration: "3h",
     punchLine1: "Marathon!",
-    punchLine2: "The latest fad in foodology, get the inside scoup.",
+    punchLine2: "Step up, lace up, and conquer the urban streets with the 5 Kilometer Downtown Run!",
     galleryImages: [],
     categoryIds: [0, 1]);
 
@@ -35,11 +35,11 @@ final cookingEvent = Event(
     imagePath: "assets/event_images/granite_cooking_class.jpg",
     title: "Granite Cooking Class",
     description:
-        "Guest list fill up fast so be sure to apply before handto secure a spot.",
+        "Guest list fill up fast so be sure to apply before hand to secure a spot.",
     location: "Food Court Avenue",
     duration: "4h",
     punchLine1: "Granite Cooking",
-    punchLine2: "The latest fad in foodology, get the inside scoup.",
+    punchLine2:"Unleash your culinary creativity and master the art of gourmet cuisine at the Granite Cooking Class!",
     categoryIds: [
       0,
       2
@@ -52,12 +52,12 @@ final cookingEvent = Event(
 
 final musicConcert = Event(
     imagePath: "assets/event_images/music_concert.jpg",
-    title: "Arijit Music Concert",
+    title: "Experience the soul-stirring melodies of Arijit Singh live!",
     description: "Listen to Arijit's latest compositions.",
     location: "D.Y. Patil Stadium, Mumbai",
     duration: "5h",
-    punchLine1: "Music Lovers!",
-    punchLine2: "The latest fad in foodology, get the inside scoup.",
+    punchLine1: "Music Aficionados!",
+    punchLine2: "Let your heart be captivated as Arijit Singh's enchanting voice takes you on a musical journey like never before!",
     galleryImages: [
       "assets/event_images/cooking_1.jpg",
       "assets/event_images/cooking_2.jpg",
