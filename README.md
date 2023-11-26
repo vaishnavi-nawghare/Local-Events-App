@@ -25,7 +25,7 @@ The app is implemented with a focus on adhering to industry best practices for U
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/vaishnavi-nawghare/LocalEventsApp.git
+    git clone https://github.com/vaishnavi-nawghare/Local-Events-App.git
     cd LocalEventsApp
     ```
 
